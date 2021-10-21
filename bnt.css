@@ -1,0 +1,55 @@
+body{
+  background: #3E000C;
+  font-family: 'Dosis', sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+
+
+section{
+  background: #7C0B2B;
+  color: white;
+  font: 18px arial;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.301), -1em 0 0.3em rgba(255, 255, 255, 0.137);
+}
+
+.botano{
+  background: white;
+  border: none;
+  border-radius: 10px;
+  color: #3E000C;
+  font: 15px arial;
+  text-align: center;
+}
+
+.bth{
+  cursor: pointer;
+}
+
+.btm{
+  cursor: pointer;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.botaone{
+  background: #FB4B4E;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font:15px arial;
+  padding: 6px 16px;
+  width: 25%;
+}
+
+
+footer{
+  font-style: italic;
+}

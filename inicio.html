@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgeChecked</title>
+  <!--css-->
+  <link rel="stylesheet" href="bnt.css">
+  <!------->
+
+  <!--fontes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+  <!---------->
+</head>
+<body>
+  <header>
+    <h1>Verificador de idade</h1>
+  </header>
+  <section>
+    <div>
+      <p>Ano de nascimento:
+        <input type="number" name="ano" id="ano" min="0" max="100" class="botano">
+      </p>
+
+      <p>
+        Gênero:
+        <input type="radio" name="radgen" id="hom" class="bth">
+        <label for="hom">Homem</label>
+        <input type="radio" name="radgen" id="mu" class="btm">
+        <label for="mu">Mulher</label>
+        <input type="radio" name="radgen" id="nb" class="btn">
+        <label for="nb">Não-binário</label>
+      </p>
+
+      <p>
+        <input type="button" value="Verificar" class="botaone" onclick="verificar()">
+      </p>
+ 
+    <div id="rsu">
+      Preencha os dados acima para ver seu resultado!
+      
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy;AgeChecked</p>
+  </footer>
+
+  <!--js-->
+  <script src="inicio.js"></script>
+  <!------>
+
+</body>
+</html>
